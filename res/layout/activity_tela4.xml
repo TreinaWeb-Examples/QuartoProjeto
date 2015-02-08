@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView 
+        android:id="@+id/textViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/labelId"/>
+    
+    <EditText 
+        android:id="@+id/editTextId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewId"
+        android:layout_below="@+id/textViewId"
+        android:layout_marginTop="10dp"
+        android:ems="5"
+        android:enabled="false"
+        android:inputType="number"/>
+    
+    <TextView 
+        android:id="@+id/textViewTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textTextId"
+        android:layout_below="@+id/editTextId"
+        android:layout_marginTop="10dp"
+        android:text="@string/labelTitulo" />
+    
+    <EditText 
+        android:id="@+id/editTextTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewTitulo"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textViewTitulo"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:inputType="textPersonName">
+        <requestFocus />
+    </EditText>
+    
+    <TextView 
+        android:id="@+id/textViewAutor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextTitulo"
+        android:layout_below="@+id/editTextTitulo"
+        android:layout_marginTop="10dp"
+        android:text="@string/labelAutor"/>
+    
+    <EditText 
+        android:id="@+id/editTextAutor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewAutor"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textViewAutor"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"/>
+
+</RelativeLayout>

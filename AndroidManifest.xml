@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quartoprojeto"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+    
+    <permission android:name="com.example.quartoprojeto.provider.permission.BOOKS_PROVIDER"
+        android:protectionLevel="normal" />
+    <uses-permission android:name="com.example.quartoprojeto.provider.permission.BOOKS_PROVIDER"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Tela1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.quartoprojeto.Tela3"
+            android:label="@string/app_name">
+            
+        </activity>
+        <activity android:name="com.example.quartoprojeto.Tela4"
+            android:label="@string/app_name">
+            
+        </activity>
+        <provider android:name="com.example.quartoprojeto.BooksProvider"
+            android:authorities="com.example.quartoprojeto.livros"
+            android:permission="com.example.quatoprojeto.provider.permission.BOOKS_PROVIDER">            
+        </provider>
+    </application>
+
+</manifest>

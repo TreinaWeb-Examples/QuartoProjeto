@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Quarto Projeto</string>
+    <string name="titulo1">Livros</string>
+    <string name="labelInserir">Novo </string>
+    <string name="branco"></string>
+    <string name="titulo3">Dados do Livro:</string>
+    <string name="labelTitulo">Título</string>
+    <string name="labelAutor">Autor:</string>
+    <string name="botaoSalvar">Salvar</string>
+    <string name="labelId">Id:</string>
+    <string name="botaoAlterar">Alterar</string>
+    <string name="botaoExcluir">Excluir</string>
+    <string name="action_search">Pesquisar</string>
+
+</resources>
