@@ -57,6 +57,25 @@
         android:layout_marginRight="10dp"
         android:ems="10"
         android:inputType="textPersonName"/>
+    
+    <Button 
+        android:id="@+id/buttonImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageCapa"
+        android:layout_alignRight="@+id/editTextAutor"
+        android:layout_below="@+id/editTextAutor"
+        android:layout_marginTop="14dp"
+        android:text="@string/botaoImagem" />
+    
+    <ImageView 
+        android:id="@+id/imageCapa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextAutor"
+        android:layout_below="@+id/buttonImage"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/labelImagem" />"
         
 
 </RelativeLayout>

@@ -13,5 +13,7 @@
     <string name="botaoAlterar">Alterar</string>
     <string name="botaoExcluir">Excluir</string>
     <string name="action_search">Pesquisar</string>
+    <string name="botaoImagem">Selecionar Imagem</string>
+    <string name="labelImagem">Capa</string>
 
 </resources>
